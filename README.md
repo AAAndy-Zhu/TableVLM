@@ -1,4 +1,4 @@
-# 📊 TableVLM
+# TableVLM
 
 > Efficient multimodal table understanding and reasoning with **DiSCo** and **Table-GLS**.
 
@@ -14,6 +14,7 @@ This repository includes two complementary components:
 - 🧩 **DiSCo**: disentangled structure-content alignment for multimodal table understanding.
 - 🔎 **Table-GLS**: global-to-local structure-guided table reasoning without external tools.
 
+![TableVLM](https://github.com/AAAndy-Zhu/TableVLM/blob/main/TableVLM.png)
 
 ## ✨ News
 
