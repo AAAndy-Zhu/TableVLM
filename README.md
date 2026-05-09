@@ -1,4 +1,4 @@
-<h1 align="center"> Decoupling Skeleton and Flesh: Efficient Multimodal Table Reasoning with Disentangled Alignment and Structure-aware Guidance. </h1>
+<h1 align="center"> Efficient Multimodal Table Reasoning with Disentangled Alignment and Structure-aware Guidance </h1>
 
 <h5 align="center">
 
