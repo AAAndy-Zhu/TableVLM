@@ -1,13 +1,15 @@
-# TableVLM
+<h1 align="center"> Decoupling Skeleton and Flesh: Efficient Multimodal Table Reasoning with Disentangled Alignment and Structure-aware Guidance. </h1>
 
-> Efficient multimodal table understanding and reasoning with **DiSCo** and **Table-GLS**.
+<h5 align="center">
 
 ![Conference](https://img.shields.io/badge/ICML%202026-Spotlight-blue)
+[![arXiv](https://img.shields.io/badge/Arxiv-2602.03491-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2602.03491)
 ![Task](https://img.shields.io/badge/Task-Multimodal%20Table%20Reasoning-green)
+</h5>
 
-Official code for **Decoupling Skeleton and Flesh: Efficient Multimodal Table Reasoning with Disentangled Alignment and Structure-aware Guidance**.
+This repository contains the implementation of our ICML 2026 spotlight paper, [**Decoupling Skeleton and Flesh: Efficient Multimodal Table Reasoning with Disentangled Alignment and Structure-aware Guidance**](https://arxiv.org/abs/2602.03491).
 
-TableVLM provides a lightweight framework for multimodal table understanding and reasoning. It combines efficient table alignment with structure-aware inference, aiming to improve LVLM performance on complex table images without external tools or heavy reasoning-specific supervision.
+Our work provides a lightweight framework for multimodal table understanding and reasoning. It combines efficient table alignment with structure-aware inference, aiming to improve LVLM performance on complex table images without external tools or heavy reasoning-specific supervision.
 
 This repository includes two complementary components:
 
