@@ -140,7 +140,8 @@ IMG_PATH=/path/to/MMTab/all_test_image \
 bash scripts/run_mmtab_understanding.sh
 ```
 
-For Gemma3n, we recommend exposing a single GPU during inference (e.g., `CUDA_VISIBLE_DEVICES=0`) to avoid device mismatch caused by automatic multi-GPU model dispatch.
+> [!NOTE]
+> For Gemma3n, we recommend exposing a single GPU during inference (e.g., `CUDA_VISIBLE_DEVICES=0`) to avoid device mismatch caused by automatic multi-GPU model dispatch.
 
 ## 🔎 Table-GLS: Global-to-Local Structure-Guided Reasoning
 
@@ -213,8 +214,8 @@ bash scripts/run_mmtab_da_cot.sh
 
 Use `MODE=da` for direct answer prompting.
 
----
-Table-GLS and baselines inference is based on `vllm`. When using Gemma3n with `vllm`, we also recommend exposing a single GPU (e.g., `CUDA_VISIBLE_DEVICES=0`) for more stable inference.
+> [!NOTE]
+> Table-GLS and baselines inference is based on `vllm`. When using Gemma3n with `vllm`, we also recommend exposing a single GPU (e.g., `CUDA_VISIBLE_DEVICES=0`) for more stable inference.
 
 
 ## 📏 Evaluation
