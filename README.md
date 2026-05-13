@@ -55,13 +55,13 @@ Please prepare a Python environment with the following libraries. Exact versions
 - `sacrebleu`
 - `vllm`
 - `huggingface_hub`
-- `LLaMA-Factory`
+- `LlamaFactory`
 
 **Additional notes:**
 
 - `TableGLS` uses `vllm` for Qwen3-VL and Gemma3n inference.
 - `DiSCo/src/eval_mmtab_understanding.py` uses Hugging Face `transformers`.
-- DiSCo alignment training is performed with `LLaMA-Factory`.
+- DiSCo alignment training is performed with `LlamaFactory`.
 - Please install model-specific dependencies according to the checkpoint you use.
 
 ## 📦 Data Preparation
@@ -247,4 +247,4 @@ If you find this repository useful, please cite our paper:
 
 ## 🙏 Acknowledgement
 
-This project builds on open-source LVLM ecosystems and the MMTab benchmark. Please also follow the licenses of the base models and datasets you use.
+This project builds on open-source LVLM ecosystems, [MMTab](https://huggingface.co/datasets/SpursgoZmy/MMTab), [LlamaFactory](https://github.com/hiyouga/LlamaFactory) and [vLLM](https://github.com/vllm-project/vllm). Please also follow the licenses of the base models and datasets you use.
